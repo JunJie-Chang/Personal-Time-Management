@@ -1,0 +1,101 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+.conda/
+
+# Poetry
+# poetry.lock  # 取消註解以忽略 lock 文件（通常建議提交）
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+# 如果保留 process.ipynb，可以移除上面的 *.ipynb，改為：
+# .ipynb_checkpoints/
+# 只忽略檢查點，保留 notebook 文件
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# 數據文件（個人時間追蹤數據）
+時間軌跡.csv
+*.csv
+# 如果只想忽略特定的 CSV，可以改為：
+# 時間軌跡.csv
+
+# 生成的輸出文件
+total_review.xlsx
+*.xlsx
+integration/
+*.png
+weekly_report.md
+statistical_report.md
+processed_records.csv
+
+# 系統文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# 臨時文件
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+
+# 環境變數
+.env
+.env.local
+.env.*.local
+
+# 測試覆蓋率
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+

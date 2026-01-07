@@ -1,0 +1,23 @@
+[project]
+name = "weekly-review"
+version = "0.1.0"
+description = "一個用於時間追蹤與週復盤分析的 Python 工具集，可從時間軌跡數據生成週報、統計圖表和 Excel 報告。"
+authors = [
+    {name = "張鈞傑",email = "justinooi0416@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.0.0",
+    "matplotlib>=3.7.0",
+    "numpy>=1.24.0",
+    "scipy>=1.10.0",
+]
+
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
